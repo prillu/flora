@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar a{
+    font-size:1.2rem ;
+    text-decoration: none;
+    color: rgb(19, 2, 58);
+    font-weight: 500;
+    margin-left: 2.5rem;
+    /* display: flex; */
+}
+.logo{
+    width: 60px;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    /* padding: 1rem 10%;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+h1{
+    margin-top: 0px;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    
+}
+marquee{
+    background-color: rgb(235, 181, 236);
+    position: fixed;
+    top: 155px;
+    z-index: 2;
+}
+.container-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    margin: 50px;
+}
+
+img {
+    width: 100%;
+}
+h3{
+    color: rgb(3, 3, 88);
+}
+/* body {
+    background: url("https://previews.123rf.com/images/vicushka/vicushka1707/vicushka170700015/81344850-gypsophila-baby-s-breath-flowers-on-blue-background-white-flowers-frame-top-view-copy-space.jpg") no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+} */
+.col{
+    width: 250px;
+    height: 10px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    background-color: rgb(186, 217, 252);
+}
+button{
+    background-color: rgb(210, 199, 250);
+    color: rgb(3, 15, 141);
+    /* font-weight: bold; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid color rgba(88, 203, 248, 0.712);
+    display: inline-block;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,white,yellow
+    ,red);
+}
